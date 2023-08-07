@@ -46,7 +46,7 @@ There were two transaction failed (neither of them showed on the etherscan):
 The first one was trying to delegate to the address that has casted the vote already.
 The second one was trying to delegate after casting the vote. 
 
-# Voting
+## Voting
 
 [Etherscan link](https://sepolia.etherscan.io/tx/0x45b357c1493620cc07fee373c66c5f0ca0b721085799dcc857068c1947972ad1)
 
@@ -59,6 +59,6 @@ The first one was trying to vote, but the message sender did not have the right 
 The second one was trying to vote after casting the vote.
 The third one was trying to vote after delegating to another address.
 
-# Winning proposal
+## Winning proposal
 
 The successful transaction correctly returns the winnning proposal and the vote counts, but it did not show on the etherscan.
